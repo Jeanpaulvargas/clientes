@@ -40,7 +40,7 @@
     </div>
     <div class="row mb-4 justify-content-center">
         <div class="col-lg-6">
-            <a href="../../vistas/clientes/buscar.php" class="btn btn-primary w-100">Volver al formulario de busqueda</a>
+            <a href="../../vistas/cliente/buscar.php" class="btn btn-primary w-100">Volver al formulario de busqueda</a>
         </div>
     </div>
     <h1 class="text-center">Listado de clientes</h1>
@@ -72,7 +72,7 @@
                                         Acciones
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../../vistas/clientes/modificar.php?cli_id=<?= base64_encode($cliente['cli_id'])?>"><i class="bi bi-pencil-square me-2"></i>Modificar</a></li>
+                                        <li><a class="dropdown-item" href="../../vistas/cliente/modificar.php?cli_id=<?= base64_encode($cliente['cli_id'])?>"><i class="bi bi-pencil-square me-2"></i>Modificar</a></li>
                                         <li><a class="dropdown-item" href="../../controladores/clientes/eliminar.php?cli_id=<?= base64_encode($cliente['cli_id'])?>"><i class="bi bi-trash me-2"></i>Eliminar</a></li>
                                     </ul>
                                 </div>
